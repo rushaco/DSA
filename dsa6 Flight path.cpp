@@ -123,3 +123,51 @@ int main()
     }
     return 0;
 }
+
+
+
+OUTPUT:
+Enter the number of cities:
+Input: 4 (for example, if you have 4 cities)
+Enter the name of the city:
+Input: CityA CityB CityC CityD (enter the names of each city)
+Enter the number of edges:
+Input: 6 (for example, if you have 6 connections between cities)
+Enter the amount of fuel required for the journey:
+Input: For each connection, enter the amount of fuel required to travel from one city to another.
+
+This code is for representing a graph of cities and calculating the fuel required for traveling between them. Here's what to enter and the expected output with an example:
+
+Enter the number of cities:
+Input: 4 (for example, if you have 4 cities)
+Enter the name of the city:
+Input: CityA CityB CityC CityD (enter the names of each city)
+Enter the number of edges:
+Input: 6 (for example, if you have 6 connections between cities)
+Enter the amount of fuel required for the journey:
+Input: For each connection, enter the amount of fuel required to travel from one city to another.
+For example, let's consider a scenario with 4 cities: CityA, CityB, CityC, and CityD. Suppose we have the following connections between cities:
+
+CityA to CityB: 10 units of fuel
+CityA to CityC: 20 units of fuel
+CityA to CityD: 15 units of fuel
+CityB to CityC: 25 units of fuel
+CityB to CityD: 30 units of fuel
+CityC to CityD: 35 units of fuel
+After entering this input, the program will display the fuel required for each journey, whether there exists a path between the source and destination cities, and whether the graph is connected.
+
+Expected output for the example:
+The fuel required from city CityA to CityB is 10
+The fuel required from city CityA to CityC is 20
+The fuel required from city CityA to CityD is 15
+The fuel required from city CityB to CityC is 25
+The fuel required from city CityB to CityD is 30
+The fuel required from city CityC to CityD is 35
+
+Enter the source city: CityA
+Enter the destination city: CityC
+The fuel required from city CityA to CityC is 20
+
+The graph is connected!
+
+
