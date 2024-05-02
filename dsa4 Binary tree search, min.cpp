@@ -271,3 +271,20 @@ int main()
 
 
 
+Enter data: 10
+Do you want to continue? (y/n): y
+Enter data: 5
+Do you want to continue? (y/n): y
+Enter data: 15
+Do you want to continue? (y/n): n
+
+	Original Tree:
+10
+5 15
+3 7 12
+
+Mirror Image:
+10
+15 5
+12 7 3
+
