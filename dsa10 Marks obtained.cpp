@@ -112,3 +112,19 @@ int main()
     cout << "The minimum marks are- " << min_heap.arr[0] << endl;
     cout << "The maximum marks are- " << max_heap.arr[0] << endl;
 }
+
+OUTPUT
+Enter the number of students-
+5
+Enter the marks of the student-
+80
+Enter the marks of the student-
+65
+Enter the marks of the student-
+75
+Enter the marks of the student-
+90
+Enter the marks of the student-
+85
+The minimum marks are- 65
+The maximum marks are- 90
