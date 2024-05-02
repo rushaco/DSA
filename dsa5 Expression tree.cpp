@@ -106,16 +106,19 @@ top=s2.pop();
 cout<<top->data;
 }}
 
-  void tree::del(node* node)  
+ void tree::del(node* node)  
 { 
-    if (node == NULL) return; 
-      /* first delete both subtrees */
+    if (node == NULL) 
+        return; 
+    
+    // First delete both subtrees 
     del(node->left); 
     del(node->right); 
-        /* then delete the node */
-    cout<<" Deleting node:"<<node->data; 
-    free(node); 
-}  
+    
+    // Then delete the node 
+    cout << " Deleting node:" << node->data; 
+    delete node; 
+}
 
  int main()
  {
@@ -136,3 +139,9 @@ cout<<top->data;
 // t.display(t.top);
  
  }
+
+
+
+Enter prefix Expression: +a*bc
+Result of the expression: +a*bc
+Postorder traversal result: abc*+
