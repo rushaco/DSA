@@ -74,3 +74,20 @@ return;
 print(i,r[i][j]-1);
 print(r[i][j],j);
 }
+
+
+Enter a number of identifiers : 5
+Enter identifiers : key1 key2 key3 key4 key5
+Enter success probability for identifiers : 10 20 15 25 30
+Enter failure probability for identifiers : 5 10 5 10 5 10
+
+  Weight   Cost   Root
+5 0 0
+15 5 1
+40 25 2
+75 65 3
+130 115 4
+50 65 1
+60 70 2
+95 105 3
+170 190 4
