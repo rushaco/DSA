@@ -133,3 +133,46 @@ while (1):
         break
     else:
         print("Please Enter a valid choice!")
+
+
+OUTPUT:
+Enter 1 for chaining method
+Enter 2 for linear probing method
+1
+Enter 1 to insert a Phone Number in the directory
+Enter 2 to search a Phone Number in the directory
+Enter 3 to Print the directory
+Enter 4 to quit 
+1
+Enter the count of Phone Numbers to be inserted-
+3
+Enter the Phone Number to be inserted-
+1234567890
+No collision occurred while inserting
+Enter the Phone Number to be inserted-
+2345678901
+Collision occurred while inserting!
+Enter the Phone Number to be inserted-
+3456789012
+No collision occurred while inserting
+Enter 1 to insert a Phone Number in the directory
+Enter 2 to search a Phone Number in the directory
+Enter 3 to Print the directory
+Enter 4 to quit 
+2
+Enter the Phone Number to be searched in the directory-
+2345678901
+Phone Number found in the directory!
+Enter 1 to insert a Phone Number in the directory
+Enter 2 to search a Phone Number in the directory
+Enter 3 to Print the directory
+Enter 4 to quit 
+3
+1234567890
+2345678901->3456789012
+Enter 1 to insert a Phone Number in the directory
+Enter 2 to search a Phone Number in the directory
+Enter 3 to Print the directory
+Enter 4 to quit 
+4
+Thanks for trying out my code :)
