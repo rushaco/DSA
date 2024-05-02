@@ -367,3 +367,89 @@ void dict::input_update()
     				  }while(ch!=6);
     				return 0;
 				}		
+
+
+OUTPUT:
+==========================================
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+1
+Enter the keyword:
+apple
+Enter the meaning of the keyword:
+a fruit
+
+Root node created successfully
+
+==========================================
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+2
+The words entered in the dictionary are:
+
+apple = a fruit
+
+==========================================
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+5
+Enter the keyword to be updated:
+apple
+Enter the updated meaning of the keyword:
+a red or green fruit
+
+The meaning of 'apple' has been updated.
+
+==========================================
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+3
+Enter a keyword to be deleted:
+apple
+
+The word 'apple' has been deleted.
+
+==========================================
+********DICTIONARY***********:
+
+Enter your choice:
+1.Add new keyword.
+2.Display the contents of the Dictionary.
+3.Delete a keyword.
+4.Find a keyword.
+5.Update the meaning of a keyword.
+6.Exit.
+===============================================
+6
