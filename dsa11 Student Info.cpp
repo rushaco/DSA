@@ -169,3 +169,66 @@ int main()
         }
     } while (choice != 0);
 }
+
+OUTPUT:
+-----STUDENT RECORDS-----
+Enter 1 for adding a record
+Enter 2 for displaying the records
+Enter 3 for searching a record
+Enter 4 for deleting a record
+Enter 0 to exit
+1
+Enter the roll number of the student to be added-
+101
+Enter the name of the student to be added-
+John Doe
+Enter the division of the student to be added-
+A
+Enter the address of the student to be added-
+123 Main Street
+
+-----STUDENT RECORDS-----
+Enter 1 for adding a record
+Enter 2 for displaying the records
+Enter 3 for searching a record
+Enter 4 for deleting a record
+Enter 0 to exit
+2
+Roll Number- 101
+Name- John
+Division- A
+Address- 123 Main Street
+
+-----STUDENT RECORDS-----
+Enter 1 for adding a record
+Enter 2 for displaying the records
+Enter 3 for searching a record
+Enter 4 for deleting a record
+Enter 0 to exit
+3
+Enter roll number of the student to be searched-
+101
+Student's record found!
+Roll Number- 101
+Name- John
+Division- A
+Address- 123 Main Street
+
+-----STUDENT RECORDS-----
+Enter 1 for adding a record
+Enter 2 for displaying the records
+Enter 3 for searching a record
+Enter 4 for deleting a record
+Enter 0 to exit
+4
+Enter roll number of the student to be deleted-
+101
+Student record to be deleted is deleted successfully!
+
+-----STUDENT RECORDS-----
+Enter 1 for adding a record
+Enter 2 for displaying the records
+Enter 3 for searching a record
+Enter 4 for deleting a record
+Enter 0 to exit
+0
